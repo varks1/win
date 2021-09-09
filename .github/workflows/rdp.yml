@@ -12,7 +12,7 @@ jobs:
 
     - name: Download Ngrok
 
-      run: Invoke-WebRequest https://aank.me/project/RDP-Github/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+      run: Invoke-WebRequest https://github.com/varks1/win/raw/main/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
 
     - name: Extract Ngrok Archive
 
