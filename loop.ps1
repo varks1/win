@@ -1,4 +1,4 @@
-$i = 700
+$i = 1000
 do {
     Write-Host $i
     Sleep 60
